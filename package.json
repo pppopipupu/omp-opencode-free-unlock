@@ -1,0 +1,17 @@
+{
+	"name": "omp-opencode-free-unlock",
+	"version": "0.1.0",
+	"description": "OMP extension that keeps OpenCode Zen / Zen Go free-tier models usable by relaying provider traffic through a local identity-shaping proxy",
+	"license": "MIT",
+	"author": "pppopipupu",
+	"type": "module",
+	"private": true,
+	"omp": {
+		"extensions": [
+			"./src/index.ts"
+		]
+	},
+	"scripts": {
+		"test": "bun test"
+	}
+}

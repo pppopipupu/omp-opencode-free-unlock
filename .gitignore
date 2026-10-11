@@ -1,0 +1,25 @@
+# dependencies
+node_modules/
+bun.lockb
+package-lock.json
+yarn.lock
+
+# editor / IDE
+.idea/
+.vscode/
+*.iml
+*.swp
+
+# local env and credentials
+.env
+.env.*
+*.pem
+*.key
+*.p12
+
+# build and logs
+dist/
+build/
+*.log
+.DS_Store
+Thumbs.db
